@@ -26,7 +26,7 @@ defmodule SampleWeb.BookController do
             edition: %Schema{description: "Book edition", type: :integer, example: 2},
             published: %Schema{description: "Book published date", type: :string, example: "2018-01-01", format: :date},
           }
-        }, "Filters", style: "deepObject", explode: true, required: true)
+        }, "Filters", style: :deepObject, explode: true, required: true)
       ],
       responses: %{
         200 => Operation.response("Books", "application/json", BooksResponse)
