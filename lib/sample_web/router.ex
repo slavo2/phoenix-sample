@@ -7,5 +7,7 @@ defmodule SampleWeb.Router do
 
   scope "/api", SampleWeb do
     pipe_through :api
+
+    get "/book", BookController, :index
   end
 end
