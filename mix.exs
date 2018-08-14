@@ -36,7 +36,7 @@ defmodule Sample.Mixfile do
       {:phoenix_pubsub, "~> 1.0"},
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
-      {:open_api_spex, "~> 2.1"},
+      {:open_api_spex, "~> 2.3"},
     ]
   end
 end
